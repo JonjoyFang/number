@@ -1,0 +1,256 @@
+*{
+    margin:0;
+    padding: 0;
+    list-style: none;
+}
+html{
+    font-size: 87.5%;
+}
+a{
+    text-decoration: none;
+    color: #000;
+}
+header{
+    background:#f7f7f7;
+    text-align: center;
+    width: 100%;
+    height:60px;
+    line-height: 60px;
+    font-size: 1.429rem;
+}
+.xiangzuo{
+    position: absolute;
+    left:20px;
+}
+.header_right{
+    position: absolute;
+    right:20px;
+}
+.section1{
+    padding:120px 60px;
+    width:100%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+
+.section2{
+    width:100%;
+    text-align: center;
+    margin-bottom:120px;
+    padding:0 20px;
+    box-sizing: border-box;
+}
+.baifenbi{
+    color:#222222;
+    font-size: 1.571rem;
+    padding-bottom: 20px;
+}
+.p_font{
+    color: #858585;
+    font-size: 1.571rem;
+    padding-bottom: 40px;
+}
+.jindu1{
+    width:480px;
+    height:20px;
+    margin:0 auto;
+    position: relative;
+    background:#ecf0f3;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+.jindu2{
+    width:0;
+    height:100%;
+    position: absolute;
+    left:0;
+    top:0;
+    background:#7ed321;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    border-radius:10px;
+}
+
+
+
+/*第二个页面*/
+.content{
+    width:100%;
+    background:#1199ff;
+    text-align: center;
+    overflow: hidden;
+}
+.content img{
+    margin-top:50px;
+    margin-bottom: 66px;
+}
+.p_section{
+    width:460px;
+    height:88px;
+    margin:0 auto;
+    padding:0 20px;
+}
+.gengxin2{
+    width:100%;
+    height:100%;
+    color:#d3e8fd;
+    font-size: 2rem;
+    background:#1987f7;
+    text-align: center;
+    border-radius: 44px;
+    line-height: 88px;
+}
+.gengxin{
+    width:100%;
+    height:100%;
+    color:#d3e8fd;
+    font-size: 2rem;
+    background:#62b0ff;
+    border:2px solid #81bfff;
+    text-align: center;
+    border-radius: 44px;
+    line-height: 88px;
+}
+.date{
+    width:100%;
+    padding:20px 0 40px 0;
+    color:#8fccff;
+    font-size: 1.571rem;
+}
+.bot{
+    width:100%;
+    height:500px;
+    overflow: hidden;
+}
+.bot_ul li{
+    width: 100%;
+    height:100px;
+    line-height: 100px;
+    padding:0 20px;
+    border-bottom: 1px solid #dcdcdc;
+    position: relative;
+}
+.bot_ul li span>img{
+    position: absolute;
+    left:20px;
+    top:34px;
+    margin-right:20px;
+}
+.img_right_font{
+    margin-left:52px;
+    color: #222222;
+}
+.new{
+    display: inline-block;
+    width:68px;
+    height:28px;
+    line-height: 28px;
+    text-align: center;
+    border:1px solid #ef4e4e;
+    font-size: 18px;
+    color:#ef4e4e;
+    border-radius: 14px;
+}
+.li1_right{
+    float: right;
+}
+.icon-xiangyoujiantou{
+    margin-right:30px;
+    margin-left:20px;
+}
+.li2_right{
+    float: right;
+    position: relative;
+}
+.tiao{
+    display: inline-block;
+    width:60px;
+    height:28px;
+    border-radius: 14px;
+    background: #92d2ff;
+    margin-top:36px;
+    margin-right:30px;
+    position: relative;
+}
+.tiao_left{
+    display: inline-block;
+    width: 34px;
+    height:34px;
+    border-radius: 34px;
+    background: transparent;
+    position: absolute;
+    top:-3px;
+    left: 0;
+    z-index:99;
+    cursor: pointer;
+}
+.tiao_right{
+    display: inline-block;
+    width: 34px;
+    height:34px;
+    border-radius: 34px;
+    background: transparent;
+    position: absolute;
+    top:-3px;
+    right: 0;
+    z-index:99;
+    cursor: pointer;
+}
+.yuan{
+    display: inline-block;
+    width:34px;
+    height:34px;
+    border-radius: 34px;
+    background: #26a5ff;
+    position: absolute;
+    right:30px;
+    top:33px;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+@media(max-width: 768px){
+    section>img{
+        width:100%;
+        max-width:100%;
+    }
+    .section1{
+        padding:60px 60px;
+    }
+    .jindu1{
+        max-width:100%;
+    }
+    .jindu2{
+        max-width:100%;
+    }
+    .p_section{
+        height:60px;
+    }
+    .gengxin2{
+        line-height: 60px;
+    }
+    .gengxin{
+        width:100%;
+        max-width:100%;
+        line-height: 60px;
+    }
+    .p_section{
+        width:100%;
+        max-width:100%;
+        box-sizing: border-box;
+    }
+    .content>img{
+        width: 100%;
+        max-width: 100%;
+        margin:40px 0;
+    }
+}
+
