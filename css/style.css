@@ -21,6 +21,7 @@ header{
 .xiangzuo{
     position: absolute;
     left:20px;
+    cursor: pointer;
 }
 .header_right{
     position: absolute;
@@ -72,6 +73,18 @@ header{
     -moz-border-radius:10px;
     border-radius:10px;
 }
+.dtn_down{
+    width:80px;
+    height:40px;
+    border-radius: 40px;
+    line-height: 40px;
+    color: red;
+    background: transparent;
+    text-align: center;
+    margin:20px auto;
+    border:1px solid #ddd;
+    cursor: pointer;
+}
 
 
 
@@ -92,16 +105,7 @@ header{
     margin:0 auto;
     padding:0 20px;
 }
-.gengxin2{
-    width:100%;
-    height:100%;
-    color:#d3e8fd;
-    font-size: 2rem;
-    background:#1987f7;
-    text-align: center;
-    border-radius: 44px;
-    line-height: 88px;
-}
+
 .gengxin{
     width:100%;
     height:100%;
@@ -109,6 +113,17 @@ header{
     font-size: 2rem;
     background:#62b0ff;
     border:2px solid #81bfff;
+    text-align: center;
+    border-radius: 44px;
+    cursor: pointer;
+    line-height: 88px;
+}
+.gengxin2{
+    width:100%;
+    height:100%;
+    color:#d3e8fd;
+    font-size: 2rem;
+    background:#1987f7;
     text-align: center;
     border-radius: 44px;
     line-height: 88px;
@@ -174,30 +189,30 @@ header{
     margin-right:30px;
     position: relative;
 }
-.tiao_left{
-    display: inline-block;
-    width: 34px;
-    height:34px;
-    border-radius: 34px;
-    background: transparent;
-    position: absolute;
-    top:-3px;
-    left: 0;
-    z-index:99;
-    cursor: pointer;
-}
-.tiao_right{
-    display: inline-block;
-    width: 34px;
-    height:34px;
-    border-radius: 34px;
-    background: transparent;
-    position: absolute;
-    top:-3px;
-    right: 0;
-    z-index:99;
-    cursor: pointer;
-}
+/*.tiao_left{*/
+    /*display: inline-block;*/
+    /*width: 34px;*/
+    /*height:34px;*/
+    /*border-radius: 34px;*/
+    /*background: transparent;*/
+    /*position: absolute;*/
+    /*top:-3px;*/
+    /*left: 0;*/
+    /*z-index:99;*/
+    /*cursor: pointer;*/
+/*}*/
+/*.tiao_right{*/
+    /*display: inline-block;*/
+    /*width: 34px;*/
+    /*height:34px;*/
+    /*border-radius: 34px;*/
+    /*background: transparent;*/
+    /*position: absolute;*/
+    /*top:-3px;*/
+    /*right: 0;*/
+    /*z-index:99;*/
+    /*cursor: pointer;*/
+/*}*/
 .yuan{
     display: inline-block;
     width:34px;
